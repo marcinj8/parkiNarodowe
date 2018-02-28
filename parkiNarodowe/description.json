@@ -1,0 +1,13 @@
+{"park":[
+			{
+				"parkId":"1",
+				"name":"Babiogórski Park Narodowy",
+				"description":"Babiogórski Park Narodowy – polski park narodowy utworzony w 1954 roku na terenie województwa krakowskiego. Znajduje się on w Polsce południowej, w powiecie suskim i nowotarskim przy granicy ze Słowacją.",
+			},
+			{
+				"parkId":"2",
+				"name":"Białowieski Park Narodowy",
+				"description":"Białowieski Park Narodowy – polski park narodowy położony w północno-wschodniej części Polski, w województwie podlaskim, utworzony z Nadleśnictwa Rezerwat jako Park Narodowy w Białowieży obowiązującym od 11 sierpnia 1932 r.",
+			}
+		]
+}
