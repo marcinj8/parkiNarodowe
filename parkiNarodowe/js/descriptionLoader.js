@@ -1,6 +1,15 @@
 
+    $(document).scroll(function() {
+            
+        var position = $(window).scrollTop();
+        var p = 180 - position /3*2 +'px';
+                    
+        $('#description').css('top', p);
+            
+    })
+
     var description = {
-        content: 1
+        content: 0
     }
 
     initialDescription(description.content);
@@ -12,32 +21,43 @@
      $('.list-group-item').click(function(e) {
         e.stopPropagation();
        
-        var description = $(this).attr('id');   
-               console.log(description)
-        // if (descritpion.content != description) {
+        var descriptionNo = $(this).attr('id');   
+         
 
-        loadDescription(description);
+        loadDescription(descriptionNo);
 
         $('.list-group-item').removeClass('active').addClass('showDescription');            
         $(this).removeClass('showDescription').addClass('active');
         
 
-        // }
-         
-    
-
+             
     })
 
-    function loadDescription(description) {
+    function loadDescription(no) {
+        
+        
         $.ajax({
-            url: 'pages/description.php',
+            url: 'http://localhost/api/park.postman_collection.json',
             type: 'post',
-            data: { Description : description },
-                success: function(response) {
-
-                        // console.log(response)
-                    $('#description').html(response)
+            dataType: 'json',
+                success: function(response) {                   
+                        
+                    $('#description').html('Nazwa Parku : ' + response.item[no].request.body.formdata[1].value + "<br><br>"+
+                                "Opis parku : " + response.item[no].request.body.formdata[2].value)
                    
                 }
         })
     }
+    //checking conection
+      // var jqxhr = $.getJSON('http://localhost/api/park.postman_collection.json', function() {
+    //     console.log( "success" );
+    //     })
+    //     .done(function(response) {
+    //         console.log("second success");
+    //     })
+    //     .fail(function() {
+    //         console.log( "error" );
+    //     })
+    //     .always(function() {
+    //         console.log( "complete" );
+    // });
