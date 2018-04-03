@@ -1,0 +1,908 @@
+{
+	"variables": [],
+	"info": {
+		"name": "park",
+		"_postman_id": "9ef47364-3f92-f766-f988-34ab47b67c28",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1",
+			"request": {
+				"url": "http://localhost/parkiNarodowe/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "parkId",
+							"value": "0",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Babiogórski Park Narodowy",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Babiogórski Park Narodowy – polski park narodowy utworzony w 1954 roku na terenie województwa krakowskiego. Znajduje się on w Polsce południowej, w powiecie suskim i nowotarskim przy granicy ze Słowacją.",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		},
+		{
+			"name": "2",
+			"request": {
+				"url": "http://localhost/parkiNarodowe/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "parkId",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Białowieski Park Narodowy",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Białowieski Park Narodowy – polski park narodowy położony w północno-wschodniej części Polski, w województwie podlaskim, utworzony z Nadleśnictwa Rezerwat jako Park Narodowy w Białowieży obowiązującym od 11 sierpnia 1932 r.",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		},
+		{
+			"name": "3",
+			"request": {
+				"url": "http://localhost/parkiNarodowe/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "parkId",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Biebrzański Park Narodowy",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Biebrzański Park Narodowy – jeden z 23 parków narodowych Polski, utworzony 9 września 1993. Największy Park w Polsce o powierzchni 592,23 km², położony na terenach Kotliny Biebrzańskiej w województwie podlaskim.",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		},
+		{
+			"name": "4",
+			"request": {
+				"url": "http://localhost/parkiNarodowe/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "parkId",
+							"value": "3",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Bieszczadzki Park Narodowy",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Bieszczadzki Park Narodowy – jeden z 23 polskich parków narodowych położony w Bieszczadach Zachodnich. Utworzony w 1973 r.",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		},
+		{
+			"name": "5",
+			"request": {
+				"url": "http://localhost/parkiNarodowe/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "parkId",
+							"value": "4",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Bory Tucholskie",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Park Narodowy „Bory Tucholskie” – jeden z 23 parków narodowych na terenie Polski i 11 na nizinach. Utworzony w 1996 roku, znajduje się na terenie województwa pomorskiego, w powiecie chojnickim, w granicach gmin Chojnice i Brusy.",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		},
+		{
+			"name": "6",
+			"request": {
+				"url": "http://localhost/parkiNarodowe/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "parkId",
+							"value": "5",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Drawieński  Park Narodowy",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Drawieński Park Narodowy – polski park narodowy o powierzchni 114,41 km², utworzony w 1990 r. Położony jest na terenie trzech województw: lubuskie: 55,91 km² zachodniopomorskie: 54,72 km² wielkopolskie: 3,78 km²",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		},
+		{
+			"name": "7",
+			"request": {
+				"url": "http://localhost/parkiNarodowe/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "parkId",
+							"value": "6",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Gorczański Park Narodowy",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Gorczański Park Narodowy, utworzony w 1981 roku rozporządzeniem Rady Ministrów z dnia 8 sierpnia 1980 r., jest jednym z 23 parków narodowych na terenie Polski. Obejmuje centralne pasmo Gorców, m.in. masywy Turbacza i Gorca.",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		},
+		{
+			"name": "8",
+			"request": {
+				"url": "http://localhost/parkiNarodowe/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "parkId",
+							"value": "7",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Park Narodowy Gór Stołowych ",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Park Narodowy Gór Stołowych został utworzony 16.09.1993 r. Jest on położony na terenie Sudetów Środkowych na płn.- zach. Ziemi Kłodzkiej, przy granicy polsko-czeskiej. Górami Stołowymi nazywana jest znajdująca się na terytorium Polski pd.- zach. część rozległej, piaskowcowej płyty wypełniającej nieckę śródsudecką, pomiędzy Karkonoszami a Górami Bystrzyckimi i Orlickimi. Czeski jej fragment nosi nazwę Broumovska Vrchovina i również objęty jest ochroną (CHKO -Broumovsko).Park Narodowy Gór Stołowych jest dziewiętnastym w kolejności Parkiem Narodowym utworzonym w trosce o ochronę przyrody nieożywionej w 1993 r. Jest on położony na terenie Sudetów Środkowych na płn.- zach. Ziemi Kłodzkiej, przy granicy polsko-czeskiej. Góry Stołowe zamykają od północnego- zachodu Kotlinę Kłodzką, ciągnąc się na długości 17 km w kierunku południowo- wschodnim: od granicy polsko- czeskiej po przełomową dolinę Bystrzycy Dusznickiej w okolicy Polanicy Zdroju. Stanowią one fragment rozległego (45 km długości), wyraźnie wyodrębnionego pasma górskiego, zaliczanego do Sudetów Środkowych. ",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		},
+		{
+			"name": "9",
+			"request": {
+				"url": "http://localhost/parkiNarodowe/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "parkId",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Białowieski Park Narodowy",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Białowieski Park Narodowy – polski park narodowy położony w północno-wschodniej części Polski, w województwie podlaskim, utworzony z Nadleśnictwa Rezerwat jako Park Narodowy w Białowieży obowiązującym od 11 sierpnia 1932 r.",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		},
+		{
+			"name": "10",
+			"request": {
+				"url": "http://localhost/parkiNarodowe/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "parkId",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Białowieski Park Narodowy",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Białowieski Park Narodowy – polski park narodowy położony w północno-wschodniej części Polski, w województwie podlaskim, utworzony z Nadleśnictwa Rezerwat jako Park Narodowy w Białowieży obowiązującym od 11 sierpnia 1932 r.",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		},
+		{
+			"name": "11",
+			"request": {
+				"url": "http://localhost/parkiNarodowe/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "parkId",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Białowieski Park Narodowy",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Białowieski Park Narodowy – polski park narodowy położony w północno-wschodniej części Polski, w województwie podlaskim, utworzony z Nadleśnictwa Rezerwat jako Park Narodowy w Białowieży obowiązującym od 11 sierpnia 1932 r.",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		},
+		{
+			"name": "12",
+			"request": {
+				"url": "http://localhost/parkiNarodowe/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "parkId",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Białowieski Park Narodowy",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Białowieski Park Narodowy – polski park narodowy położony w północno-wschodniej części Polski, w województwie podlaskim, utworzony z Nadleśnictwa Rezerwat jako Park Narodowy w Białowieży obowiązującym od 11 sierpnia 1932 r.",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		},
+		{
+			"name": "13",
+			"request": {
+				"url": "http://localhost/parkiNarodowe/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "parkId",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Białowieski Park Narodowy",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Białowieski Park Narodowy – polski park narodowy położony w północno-wschodniej części Polski, w województwie podlaskim, utworzony z Nadleśnictwa Rezerwat jako Park Narodowy w Białowieży obowiązującym od 11 sierpnia 1932 r.",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		},
+		{
+			"name": "14",
+			"request": {
+				"url": "http://localhost/parkiNarodowe/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "parkId",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Białowieski Park Narodowy",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Białowieski Park Narodowy – polski park narodowy położony w północno-wschodniej części Polski, w województwie podlaskim, utworzony z Nadleśnictwa Rezerwat jako Park Narodowy w Białowieży obowiązującym od 11 sierpnia 1932 r.",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		},
+		{
+			"name": "15",
+			"request": {
+				"url": "http://localhost/parkiNarodowe/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "parkId",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Białowieski Park Narodowy",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Białowieski Park Narodowy – polski park narodowy położony w północno-wschodniej części Polski, w województwie podlaskim, utworzony z Nadleśnictwa Rezerwat jako Park Narodowy w Białowieży obowiązującym od 11 sierpnia 1932 r.",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		},
+		{
+			"name": "16",
+			"request": {
+				"url": "http://localhost/parkiNarodowe/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "parkId",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Białowieski Park Narodowy",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Białowieski Park Narodowy – polski park narodowy położony w północno-wschodniej części Polski, w województwie podlaskim, utworzony z Nadleśnictwa Rezerwat jako Park Narodowy w Białowieży obowiązującym od 11 sierpnia 1932 r.",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		},
+		{
+			"name": "17",
+			"request": {
+				"url": "http://localhost/parkiNarodowe/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "parkId",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Białowieski Park Narodowy",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Białowieski Park Narodowy – polski park narodowy położony w północno-wschodniej części Polski, w województwie podlaskim, utworzony z Nadleśnictwa Rezerwat jako Park Narodowy w Białowieży obowiązującym od 11 sierpnia 1932 r.",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		},
+		{
+			"name": "18",
+			"request": {
+				"url": "http://localhost/parkiNarodowe/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "parkId",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Białowieski Park Narodowy",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Białowieski Park Narodowy – polski park narodowy położony w północno-wschodniej części Polski, w województwie podlaskim, utworzony z Nadleśnictwa Rezerwat jako Park Narodowy w Białowieży obowiązującym od 11 sierpnia 1932 r.",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		},
+		{
+			"name": "19",
+			"request": {
+				"url": "http://localhost/parkiNarodowe/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "parkId",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Białowieski Park Narodowy",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Białowieski Park Narodowy – polski park narodowy położony w północno-wschodniej części Polski, w województwie podlaskim, utworzony z Nadleśnictwa Rezerwat jako Park Narodowy w Białowieży obowiązującym od 11 sierpnia 1932 r.",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		},
+		{
+			"name": "20",
+			"request": {
+				"url": "http://localhost/parkiNarodowe/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "parkId",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Białowieski Park Narodowy",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Białowieski Park Narodowy – polski park narodowy położony w północno-wschodniej części Polski, w województwie podlaskim, utworzony z Nadleśnictwa Rezerwat jako Park Narodowy w Białowieży obowiązującym od 11 sierpnia 1932 r.",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		},
+		{
+			"name": "21",
+			"request": {
+				"url": "http://localhost/parkiNarodowe/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "parkId",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Białowieski Park Narodowy",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Białowieski Park Narodowy – polski park narodowy położony w północno-wschodniej części Polski, w województwie podlaskim, utworzony z Nadleśnictwa Rezerwat jako Park Narodowy w Białowieży obowiązującym od 11 sierpnia 1932 r.",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		},
+		{
+			"name": "22",
+			"request": {
+				"url": "http://localhost/parkiNarodowe/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "parkId",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Białowieski Park Narodowy",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Białowieski Park Narodowy – polski park narodowy położony w północno-wschodniej części Polski, w województwie podlaskim, utworzony z Nadleśnictwa Rezerwat jako Park Narodowy w Białowieży obowiązującym od 11 sierpnia 1932 r.",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		},
+		{
+			"name": "23",
+			"request": {
+				"url": "http://localhost/parkiNarodowe/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "parkId",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Białowieski Park Narodowy",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Białowieski Park Narodowy – polski park narodowy położony w północno-wschodniej części Polski, w województwie podlaskim, utworzony z Nadleśnictwa Rezerwat jako Park Narodowy w Białowieży obowiązującym od 11 sierpnia 1932 r.",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		}
+	]
+}
