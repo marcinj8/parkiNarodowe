@@ -76,8 +76,6 @@
         e.stopPropagation();
        
         var descriptionNo = $(this).attr('id');   
-            //    console.log(descriptionNo)
-        // if (descritpion.content != description) {
 
         loadDescription(descriptionNo);
 
@@ -85,7 +83,7 @@
         $(this).removeClass('showDescription').addClass('active');
         
 
-        // }        
+              
     })
 
     function loadDescription(no) {

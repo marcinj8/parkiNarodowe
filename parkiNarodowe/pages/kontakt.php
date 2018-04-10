@@ -12,9 +12,7 @@
         </div>
     </form>
     <div class='formBtn'>
-        <div class='inline-block' >
-            <button id='clearForm'>Wyczysć</button>
-        </div>
+        
         <div class='inline-block'>
             <button id='sendData'>Wyślij</button>
         </div>  
